@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "city": {
+      "type": "text"
+    },
+    "note": {
+      "type": "text"
+    },
+    "product": {
+      "type": "string"
+    },
+    "price_per_unit": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "qty": {
+      "type": "integer"
+    },
+    "statu": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "premium_products",
+  "info": {
+    "singularName": "premium-product",
+    "pluralName": "premium-products",
+    "displayName": "premium product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "kicker": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "read_link": {
+      "type": "string"
+    },
+    "quote_link": {
+      "type": "string"
+    },
+    "order": {
+      "type": "biginteger"
+    }
+  }
+}
